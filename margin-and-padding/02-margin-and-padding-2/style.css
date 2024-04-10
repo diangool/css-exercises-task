@@ -19,9 +19,19 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  display: flexbox;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  padding-top: 5px;
+  padding-left: 10px;
+  margin-left: 150px;
+  font-weight: bold;
 }
